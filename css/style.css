@@ -129,3 +129,31 @@ p {
     height: 4px;
   }
 }
+
+/*adding columns*/
+.column {
+  float: left;
+  max-width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.rounded {
+	border: 0;
+	max-width: 100%;
+}
+/*add row*/
+.row {
+  max-width: 66%;
+	margin-right: auto;
+	margin-left: auto;
+  margin-bottom: 15px;
+  justify-content: center !important;
+
+}
+
